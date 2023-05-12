@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="fundo">
+
+            <div id="title">
+                <h1>Calculadora</h1>
+            </div>
+
+            <div class="itens">
+                <p>Digite um valor:</p>
+                <input type="number" id="valor1" class="entradaDados">
+
+                <p>Digite um valor:</p>
+                <input type="number" id="valor2" class="entradaDados">
+            </div>
+
+            <select name="" id="operacao">
+                <option id="adicionar">Adicionar</option>
+                <option id="subtrair">Subtrair</option>
+                <option id="multiplicar">Multiplicar</option>
+                <option id="dividir">Dividir</option>
+            </select>
+
+            <div class="itens" id="divCalcular">
+                <button id="calcular" onclick="calcular()">
+                    Calcular
+                </button>
+            </div>
+
+            <div class="itens">
+                <p id="resultado"></p>
+            </div>
+
+            <script src="index.js"></script>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(90deg, rgb(172, 29, 228) 0%, rgb(148, 104, 220) 50%, rgb(172, 29, 228) 100% );
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#fundo{
+    background-color: rgb(46, 26, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 70vh;
+    margin-top: 5vh;
+    border: 2px solid black;
+    border-radius: 10vh;
+}
+
+#title{
+    background-color: rgb(85, 25, 122);
+    color: aliceblue;
+    display: flex;
+    height: 10vh;
+    width: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    border-radius: 10vh;
+}
+
+
+.itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    display: flex;
+    color: aliceblue;
+    font-size: 15pt;
+
+}
+
+.entradaDados{
+    background-color: rgb(204, 159, 245);
+    display: flex;
+    height: 5vh;
+    width: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 10vh;
+    min-height: 5vh;
+}
+
+#divCalcular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calcular{
+    background-color: rgb(126, 77, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20vh;
+    width: 15vh;
+    border-radius: 5vh;
+    font-size: 15pt;
+    color: rgb(240, 240, 240);
+    cursor: pointer;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+#calcular:hover{
+    background-color: rgb(61, 0, 117);
+}
+
+@media (max-width: 768px) {
+
+    #fundo {
+      width: 90%;
+    }
+  
+    #title {
+      width: 80%;
+    }
+  
+    .entradaDados {
+      width: 80%;
+    }
+  
+    #calcular {
+      width: 20%;
+    }
+  }
+  
